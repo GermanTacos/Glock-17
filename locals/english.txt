@@ -1,0 +1,42 @@
+{
+
+	"menu_l_global_value_glawk" : "This is a Custom Weapon!",
+	
+	"bm_w_glawk" : "Glock 17",
+
+	"bm_menu_iron_rear"  : "Rear Iron Sight",
+	"bm_menu_iron_front" : "Front Iron Sight",
+	
+	"bm_wp_wpn_fps_pis_glawk_fr_wood"     : "Wood Paneled Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_stp"      : "Stippled Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_lnp"      : "LLENN Pink Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_tfb"      : "Tiffany Blue Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_stw"      : "Stormtrooper White Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_sng"      : "Sniper Grey Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_cyt"      : "Coyote Tan Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_odg"      : "Olive Drab Green Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_fde"      : "Flat Dark Earth Frame",
+	
+	"bm_wp_wpn_fps_pis_glawk_sl_hex"      : "ZEV Tech Hex Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_moto"     : "GSPC Moto Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_pat5"     : "AlphaWolf Pattern 5 Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_ps9"      : "Polymer80 PS9 Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_spartan"  : "ZEV Tech Spartan Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_viper"    : "GSPC Viper Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_wave"     : "AlphaWolf Wave Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_auto"     : "Full Auto Converted Slide",
+	
+	"bm_wp_wpn_fps_pis_glawk_ba_comp"     : "Compensated Barrel",
+	"bm_wp_wpn_fps_pis_glawk_ba_sailent"  : "Sailent Arms Barrel",
+	"bm_wp_wpn_fps_pis_glawk_ba_wolf"     : "AlphaWolf Barrel",
+	
+	"bm_wp_wpn_fps_pis_glawk_fo_tru"      : "TruGlo TFO Front Sight",
+	"bm_wp_wpn_fps_pis_glawk_ro_tru"      : "TruGlo TFO Rear Sight",
+	
+	"bm_wp_wpn_fps_pis_glawk_gr_pachmayr" : "Pachmayr Tactical Grip Glove",
+	
+	"bm_wp_wpn_fps_pis_glawk_m_21"        : "TTI +4 Base Pad Kit",
+	"bm_wp_wpn_fps_pis_glawk_m_23"        : "TTI +6 Base Pad Kit",
+	"bm_wp_wpn_fps_pis_glawk_m_33"        : "33 Round Magazine"
+	
+}
