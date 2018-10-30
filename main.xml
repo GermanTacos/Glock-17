@@ -350,7 +350,11 @@
 			</uses_parts>
 			
 		</factory>
-		<stance/>
+		<stance>
+			<steelsight>
+				<shoulders translation="-8.572 -2.166 4.78"/>
+			</steelsight>
+		</stance>
 		
 	</Weapon>
 	
