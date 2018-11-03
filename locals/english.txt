@@ -28,8 +28,13 @@
 	"bm_wp_wpn_fps_pis_glawk_sl_18"        : "Glock 18 Slide",
 	
 	"bm_wp_wpn_fps_pis_glawk_ba_comp"      : "Compensated Barrel",
-	"bm_wp_wpn_fps_pis_glawk_ba_sailent"   : "Sailent Arms Barrel",
+	"bm_wp_wpn_fps_pis_glawk_ba_diamond"   : "Double Diamond Barrel",
+	"bm_wp_wpn_fps_pis_glawk_ba_salient"   : "Salient Arms SAI Barrel",
 	"bm_wp_wpn_fps_pis_glawk_ba_wolf"      : "AlphaWolf Barrel",
+	
+	"bm_wp_wpn_fps_pis_glawk_tp_diamond"   : "Double Diamond Thread Protector",
+	"bm_wp_wpn_fps_pis_glawk_tp_salient"   : "Salient Arms SAI Thread Protector",
+	"bm_wp_wpn_fps_pis_glawk_tp_wolf"      : "AlphaWolf Thread Protector",
 	
 	"bm_wp_wpn_fps_pis_glawk_fo_tru"       : "TruGlo TFO Front Sight",
 	"bm_wp_wpn_fps_pis_glawk_ro_tru"       : "TruGlo TFO Rear Sight",
