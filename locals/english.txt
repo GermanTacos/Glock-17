@@ -4,8 +4,10 @@
 	
 	"bm_w_glawk" : "Glock 17",
 
-	"bm_menu_iron_rear"  : "Rear Iron Sight",
-	"bm_menu_iron_front" : "Front Iron Sight",
+	"bm_menu_iron_rear"   : "Rear Iron Sight",
+	"bm_menu_iron_front"  : "Front Iron Sight",
+	"bm_menu_mag_release" : "Magazine Release",
+	"bm_menu_akit"        : "Ammunition",
 	
 	"bm_wp_wpn_fps_pis_glawk_fr_wood"        : "Wood Paneled Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_stp"         : "Stippled Frame",
@@ -26,6 +28,9 @@
 	"bm_wp_wpn_fps_pis_glawk_sl_wave"        : "AlphaWolf Wave Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_auto"        : "Full Auto Converted Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_18"          : "Glock 18 Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_sst"         : "Stainless Steel Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_cyt"         : "Coyote Tan Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_cap"         : "Candy Apple Slide",
 	
 	"bm_wp_wpn_fps_pis_glawk_ba_comp"        : "Compensated Barrel",
 	"bm_wp_wpn_fps_pis_glawk_ba_diamond"     : "Double Diamond Barrel",
@@ -45,6 +50,10 @@
 	
 	"bm_wp_wpn_fps_pis_glawk_fo_tru"         : "TruGlo TFO Front Sight",
 	"bm_wp_wpn_fps_pis_glawk_ro_tru"         : "TruGlo TFO Rear Sight",
+	"bm_wp_wpn_fps_pis_glawk_fo_snake"       : "Dead Ringer Snake Eyes Front Sight",
+	"bm_wp_wpn_fps_pis_glawk_ro_snake"       : "Dead Ringer Snake Eyes Rear Sight",
+	"bm_wp_wpn_fps_pis_glawk_fo_zev"         : "ZEV Tech .300 Front Sight",
+	"bm_wp_wpn_fps_pis_glawk_ro_zev"         : "ZEV Tech Co-Witness Rear Sight",
 	
 	"bm_wp_wpn_fps_pis_glawk_gr_pachmayr"    : "Pachmayr Tactical Grip Glove",
 	
@@ -55,6 +64,12 @@
 	
 	"bm_wp_wpn_fps_pis_glawk_m_21"           : "TTI +4 Base Pad Kit",
 	"bm_wp_wpn_fps_pis_glawk_m_23"           : "TTI +6 Base Pad Kit",
-	"bm_wp_wpn_fps_pis_glawk_m_33"           : "33 Round Magazine"
+	"bm_wp_wpn_fps_pis_glawk_m_33"           : "33 Round Magazine",
+	
+	"bm_wp_wpn_fps_pis_glawk_a1_40sw"        : ".40 S&W",
+	"bm_wp_wpn_fps_pis_glawk_a2_10mm"        : "10mm Auto",
+	"bm_wp_wpn_fps_pis_glawk_a3_357sig"      : ".357 SIG",
+	"bm_wp_wpn_fps_pis_glawk_a4_45acp"       : ".45 ACP",
+	"bm_wp_wpn_fps_pis_glawk_a5_45gap"       : ".45 GAP"
 	
 }

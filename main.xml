@@ -166,6 +166,18 @@
 	
 	<WeaponMod id="wpn_fps_pis_glawk_slp_18"  based_on="wpn_fps_pis_p226_b_standard"       type="slide_part"     unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_slp_18"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
+	<WeaponMod id="wpn_fps_pis_glawk_sl_sst" based_on="wpn_fps_pis_p226_b_standard"        type="slide"          unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_sst" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_sl_cyt" based_on="wpn_fps_pis_p226_b_standard"        type="slide"          unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cyt" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_sl_cap" based_on="wpn_fps_pis_p226_b_standard"        type="slide"          unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cap" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<pcs/>
+	</WeaponMod>
+	
 	<WeaponMod id="wpn_fps_pis_glawk_ba_comp" based_on="wpn_fps_pis_p226_b_barrel_standard" type="barrel"        unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ba_comp" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
@@ -238,25 +250,43 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
 		</forbids>
-		<adds>
-			<value_node value="wpn_fps_pis_glawk_fo2_tru"/>
-		</adds>
 		<pcs/>
 	</WeaponMod>
-	
-	<WeaponMod id="wpn_fps_pis_glawk_fo2_tru" based_on="wpn_fps_pis_p226_b_standard"        type="iron_front"     unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo2_tru" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_ro_tru" based_on="wpn_fps_pis_p226_b_standard"        type="iron_rear"      unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_tru" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
 		</forbids>
-		<adds>
-			<value_node value="wpn_fps_pis_glawk_ro2_tru"/>
-		</adds>
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_pis_glawk_ro2_tru" based_on="wpn_fps_pis_p226_b_standard"        type="iron_rear"      unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro2_tru" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_pis_glawk_fo_snake" based_on="wpn_fps_pis_p226_b_standard"        type="iron_front"     unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_snake" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_ro_snake" based_on="wpn_fps_pis_p226_b_standard"        type="iron_rear"      unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_snake" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_fo_zev" based_on="wpn_fps_pis_p226_b_standard"        type="iron_front"     unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_zev" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_ro_zev" based_on="wpn_fps_pis_p226_b_standard"        type="iron_rear"      unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_zev" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+		<pcs/>
+	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_m_33"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_33" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo_new="16" recoil="-3" concealment="-4"/>
@@ -290,9 +320,54 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<WeaponMod id="wpn_fps_pis_glawk_a1_40sw" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+        <stats extra_ammo="-1" damage="10" spread="2" recoil="-5"/>
+	    <custom_stats ammo_pickup_min_mul="0.8" ammo_pickup_max_mul="0.9" rof_mult="0.75"/>
+	    <override>
+			<wpn_fps_pis_glawk_sl_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_22"/>
+	    </override>
+	   <pcs/>
+    </WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_a2_10mm" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+        <stats extra_ammo="-1" damage="15" spread="4" recoil="-10"/>
+	    <custom_stats ammo_pickup_min_mul="0.8" ammo_pickup_max_mul="0.9" rof_mult="0.75"/>
+		<override>
+			<wpn_fps_pis_glawk_sl_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_20"/>
+	    </override>
+	    <pcs/>
+    </WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_a3_357sig" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+        <stats extra_ammo="-1" damage="15" spread="-3" recoil="6"/>
+	    <custom_stats ammo_pickup_min_mul="0.8" ammo_pickup_max_mul="0.9" rof_mult="0.75"/>
+		<override>
+			<wpn_fps_pis_glawk_sl_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_31"/>
+	    </override>
+	    <pcs/>
+    </WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_a4_45acp" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+        <stats extra_ammo="-2" damage="35" spread="3" recoil="-8"/>
+	    <custom_stats ammo_pickup_min_mul="0.75" ammo_pickup_max_mul="0.8" rof_mult="0.4"/>
+		<override>
+			<wpn_fps_pis_glawk_sl_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_21"/>
+	    </override>
+	    <pcs/>
+    </WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_a5_45gap" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+        <stats extra_ammo="-3" damage="55" spread="6" recoil="-12"/>
+	    <custom_stats ammo_pickup_min_mul="0.6" ammo_pickup_max_mul="0.7" rof_mult="0.3"/>
+		<override>
+			<wpn_fps_pis_glawk_sl_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
+	    </override>
+	    <pcs/>
+    </WeaponMod>
+	
 	<Weapon unlock_level="0">
 		<weapon id="glawk" based_on="p226" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="5" tactical_reload="1" texture_bundle_folder="mods" global_value="glawk">
-			<stats damage="65" spread="16" spread_moving="16" recoil="14" concealment="24"/>
+			<stats damage="65" spread="13" spread_moving="13" recoil="15" concealment="25"/>
 			<timers reload_not_empty="1.5" reload_empty="2.2"/>
 			<fire_mode_data fire_rate="0.1"/>
 			<AMMO_PICKUP>
@@ -356,6 +431,9 @@
 				<value_node value="wpn_fps_pis_glawk_sl_wave"/>
 				<value_node value="wpn_fps_pis_glawk_sl_auto"/>
 				<value_node value="wpn_fps_pis_glawk_sl_18"/>
+				<value_node value="wpn_fps_pis_glawk_sl_sst"/>
+				<value_node value="wpn_fps_pis_glawk_sl_cyt"/>
+				<value_node value="wpn_fps_pis_glawk_sl_cap"/>
 				
 				<value_node value="wpn_fps_pis_glawk_ba_comp"/>
 				<value_node value="wpn_fps_pis_glawk_ba_diamond"/>
@@ -375,6 +453,10 @@
 				
 				<value_node value="wpn_fps_pis_glawk_ro_tru"/>
 				<value_node value="wpn_fps_pis_glawk_fo_tru"/>
+				<value_node value="wpn_fps_pis_glawk_ro_snake"/>
+				<value_node value="wpn_fps_pis_glawk_fo_snake"/>
+				<value_node value="wpn_fps_pis_glawk_ro_zev"/>
+				<value_node value="wpn_fps_pis_glawk_fo_zev"/>
 				
 				<value_node value="wpn_fps_pis_glawk_m_21"/>
 				<value_node value="wpn_fps_pis_glawk_m_23"/>
@@ -386,6 +468,12 @@
 				
 				<value_node value="wpn_fps_pis_glawk_mw_carver_wh"/>
 				<value_node value="wpn_fps_pis_glawk_mw_carver_bl"/>
+				
+				<value_node value="wpn_fps_pis_glawk_a1_40sw"/>
+				<value_node value="wpn_fps_pis_glawk_a2_10mm"/>
+				<value_node value="wpn_fps_pis_glawk_a3_357sig"/>
+				<value_node value="wpn_fps_pis_glawk_a4_45acp"/>
+				<value_node value="wpn_fps_pis_glawk_a5_45gap"/>
 				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
@@ -624,6 +712,12 @@
 		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_auto"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_auto_thq"/>
 		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_18flat_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_18flat_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_18flat"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_18flat_thq"/>
+		
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_18_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_18_nm"/>
 		
@@ -653,6 +747,99 @@
 		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_slp_rmr"/>
 		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_slp_rmr"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_slp_rmr_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_sst_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_sst"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_sst_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_sst"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_sst"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_sst"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_sst"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_sst_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_cyt_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_cyt"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_cyt_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cyt"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cyt"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cyt"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cyt"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cyt_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_cap_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_cap"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_cap_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cap"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cap"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cap"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cap"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_cap_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_20_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_20_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_20"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_20_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_20"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_20"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_20"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_20"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_20_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_21_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_21_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_21"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_21_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_21"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_21"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_21"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_21"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_21_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_22_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_22_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_22"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_22_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_22"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_22"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_22"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_22"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_22_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_31_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_31_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_31"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_31_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_31"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_31"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_31"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_31"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_31_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_37_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_37_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_37"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_37_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_barrel_comp_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_barrel_comp_nm"/>
@@ -794,12 +981,14 @@
 		
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_tru_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_tru_nm"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_tru_il"/>
 		
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_tru"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_tru_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_tru_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_tru_nm"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_tru_il"/>
 		
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_tru"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_tru_thq"/>
@@ -827,6 +1016,51 @@
 		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro2_tru"/>
 		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro2_tru"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro2_tru_thq"/>
+		
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_snake_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_snake_nm"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_snake_il"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_snake"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_front_snake_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_snake_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_snake_nm"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_snake_il"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_snake"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_snake_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_snake"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_snake"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_snake"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_snake"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_snake_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_snake"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_snake"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_snake"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_snake"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_snake_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_zev_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_zev_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_zev"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_sight_rear_zev_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_zev"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_zev"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_zev"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_zev"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fo_zev_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_zev"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_zev"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_zev"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_zev"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_ro_zev_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_mag_33_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_mag_33_nm"/>

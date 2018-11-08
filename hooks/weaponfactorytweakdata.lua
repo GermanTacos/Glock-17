@@ -13,13 +13,27 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "Glock17ModInit", function(self)
 		"wpn_fps_upg_ns_pis_large",
 		"wpn_fps_pis_glawk_tp_diamond",
 		"wpn_fps_pis_glawk_tp_salient",
-		"wpn_fps_pis_glawk_tp_wolf"
+		"wpn_fps_pis_glawk_tp_wolf",
+		"wpn_fps_pis_glawk_md_diamond",
+		"wpn_fps_pis_glawk_md_bull",
+		"wpn_fps_pis_glawk_md_decelerator",
+		"wpn_fps_pis_glawk_md_g4",
+		"wpn_fps_pis_glawk_md_comp9",
+		"wpn_fps_pis_glawk_md_4port"
 	}
 	
 	for id, part_id in pairs(g17_exts) do
 		self.parts.wpn_fps_pis_glawk_ba_diamond.override[part_id] = {a_obj = "a_ns_ext"}
 		self.parts.wpn_fps_pis_glawk_ba_salient.override[part_id] = {a_obj = "a_ns_ext"}
 		self.parts.wpn_fps_pis_glawk_ba_wolf.override[part_id] = {a_obj = "a_ns_ext"}
+	end
+	
+	if self.wpn_fps_pis_glawk.override then
+		self.wpn_fps_pis_glawk.override.wpn_fps_upg_o_rmr = {parent = "slide"}	
+	else
+		self.wpn_fps_pis_glawk.override = {
+			wpn_fps_upg_o_rmr = {parent = "slide"}
+		}
 	end
 	
 end )
