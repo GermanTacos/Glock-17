@@ -1221,6 +1221,8 @@
 		
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/glawk"/>
 		
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_ba_wolf"/>
+		
 	</AddFiles>
 	
 	<Hooks directory="hooks">

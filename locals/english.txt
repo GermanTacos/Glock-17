@@ -2,7 +2,7 @@
 
 	"menu_l_global_value_glawk" : "This is a Custom Weapon!",
 	
-	"bm_w_glawk" : "Glock 17",
+	"bm_w_glawk" : "Glock 17 Gen 3",
 
 	"bm_menu_iron_rear"   : "Rear Iron Sight",
 	"bm_menu_iron_front"  : "Front Iron Sight",
