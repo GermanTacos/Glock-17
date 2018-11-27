@@ -3,6 +3,7 @@
 	
 	<dependencies>
 		<depends_on bnk="soundbanks/weapon_p226r"/>
+		<depends_on bnk="soundbanks/weapon_packrat"/>
 	</dependencies>
 	
     <extensions>

@@ -70,6 +70,8 @@
 	"bm_wp_wpn_fps_pis_glawk_a2_10mm"        : "10mm Auto",
 	"bm_wp_wpn_fps_pis_glawk_a3_357sig"      : ".357 SIG",
 	"bm_wp_wpn_fps_pis_glawk_a4_45acp"       : ".45 ACP",
-	"bm_wp_wpn_fps_pis_glawk_a5_45gap"       : ".45 GAP"
+	"bm_wp_wpn_fps_pis_glawk_a5_45gap"       : ".45 GAP",
+	
+	"bm_wp_wpn_fps_pis_glawk_ani_wick"       : "Baba Yaga"
 	
 }
