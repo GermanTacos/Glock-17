@@ -320,6 +320,15 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<WeaponMod id="wpn_fps_pis_glawk_a1_22lr" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+        <stats extra_ammo="-1" damage="-35" spread="22" recoil="22"/>
+	    <custom_stats ammo_pickup_min_mul="2" ammo_pickup_max_mul="2" rof_mult="2"/>
+	    <override>
+			<wpn_fps_pis_glawk_sl_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
+	    </override>
+	   <pcs/>
+    </WeaponMod>
+	
 	<WeaponMod id="wpn_fps_pis_glawk_a1_40sw" based_on="wpn_fps_upg_a_custom_free" type="akit" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
         <stats extra_ammo="-1" damage="10" spread="2" recoil="-5"/>
 	    <custom_stats ammo_pickup_min_mul="0.8" ammo_pickup_max_mul="0.9" rof_mult="0.75"/>
@@ -477,6 +486,7 @@
 				<value_node value="wpn_fps_pis_glawk_mw_carver_wh"/>
 				<value_node value="wpn_fps_pis_glawk_mw_carver_bl"/>
 				
+				<value_node value="wpn_fps_pis_glawk_a1_22lr"/>
 				<value_node value="wpn_fps_pis_glawk_a1_40sw"/>
 				<value_node value="wpn_fps_pis_glawk_a2_10mm"/>
 				<value_node value="wpn_fps_pis_glawk_a3_357sig"/>
@@ -849,6 +859,18 @@
 		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
 		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_37_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_advantage_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_advantage_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_advantage"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_advantage_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_barrel_comp_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_barrel_comp_nm"/>

@@ -66,6 +66,7 @@
 	"bm_wp_wpn_fps_pis_glawk_m_23"           : "TTI +6 Base Pad Kit",
 	"bm_wp_wpn_fps_pis_glawk_m_33"           : "33 Round Magazine",
 	
+	"bm_wp_wpn_fps_pis_glawk_a1_22lr"        : ".22 LR",
 	"bm_wp_wpn_fps_pis_glawk_a1_40sw"        : ".40 S&W",
 	"bm_wp_wpn_fps_pis_glawk_a2_10mm"        : "10mm Auto",
 	"bm_wp_wpn_fps_pis_glawk_a3_357sig"      : ".357 SIG",
