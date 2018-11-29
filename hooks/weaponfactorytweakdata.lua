@@ -28,12 +28,7 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "Glock17ModInit", function(self)
 		self.parts.wpn_fps_pis_glawk_ba_wolf.override[part_id] = {a_obj = "a_ns_ext"}
 	end
 	
-	if self.wpn_fps_pis_glawk.override then
-		self.wpn_fps_pis_glawk.override.wpn_fps_upg_o_rmr = {parent = "slide"}	
-	else
-		self.wpn_fps_pis_glawk.override = {
-			wpn_fps_upg_o_rmr = {parent = "slide"}
-		}
-	end
+	self.parts.wpn_fps_upg_o_rmr.stance_mod.wpn_fps_pis_glawk = {translation = Vector3(0, 0, -0.8)}
+	
 	
 end )
