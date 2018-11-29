@@ -385,8 +385,27 @@
 		<weapon_hold_override 	bm_w_glawk="packrat"/>
 		<weapon_stance_override bm_w_glawk="wick_ads_glawk"/>
 		<stats/>
+		<override>
+			<wpn_fps_upg_o_rmr>
+				<stance_mod>
+					<wpn_fps_pis_glawk translation="0.5 0 -0.7"/>
+				</stance_mod>
+			</wpn_fps_upg_o_rmr>
+		</override>
 		<pcs/>
 	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_so_pr" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<sound_switch suppressed="regular_b"/>
+		<stats damage="0"/>
+		<pcs/>
+    </WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_so_cof" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<sound_switch suppressed="regular_a"/>
+		<stats damage="0"/>
+		<pcs/>
+    </WeaponMod>
 	
 	<Weapon unlock_level="0">
 		<weapon id="glawk" based_on="p226" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="5" tactical_reload="1" texture_bundle_folder="mods" global_value="glawk">
@@ -397,7 +416,9 @@
 				<value_node value="3"/>
 				<value_node value="5"/>
 			</AMMO_PICKUP>
-			<sounds fire="glawk_fire"/>
+			<sounds fire="glawk_fire">
+				<reload wp_usp_clip_out="wp_glawk_mag_slide_out" wp_usp_clip_slide_in="wp_glawk_mag_slide_in" wp_g17_lever_release="wp_glawk_slide_release" wp_packrat_mag_throw="wp_glawk_mag_slide_out" wp_packrat_mag_in="wp_glawk_mag_slide_in" wp_packrat_slide_back="wp_glawk_slide_back" wp_packrat_slide_release="wp_glawk_slide_release_wick" />
+			</sounds>
 			<animations reload_name_id="p226"/>
 		</weapon>
 
@@ -410,7 +431,13 @@
 				<value_node value="barrel_ext"/>
 				<value_node value="slide"/>
 			</optional_types>
-
+			
+			<override>
+				<wpn_fps_upg_o_rmr parent="slide">
+					<adds/>
+				</wpn_fps_upg_o_rmr>
+			</override>
+			
 			<default_blueprint>
 			
 				<value_node value="wpn_fps_pis_glawk_fr_std"/>
@@ -501,6 +528,9 @@
 				
 				<value_node value="wpn_fps_pis_glawk_ani_wick"/>
 				
+				<value_node value="wpn_fps_pis_glawk_so_pr"/>
+				<value_node value="wpn_fps_pis_glawk_so_cof"/>
+				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
 				<value_node value="wpn_fps_upg_ns_pis_small"/>
@@ -530,8 +560,20 @@
 		</stance>
 	</Weapon>
 	
-	<Sounds directory="assets">
-		<sound id="glawk_fire" path="sounds/glawk_fire.ogg" prefix="regular"/>
+	<Sounds directory="assets\sounds">
+		<sound id="glawk_fire" path="glawk_fire.ogg" prefix="regular"/>
+		<sound id="glawk_fire" path="glawk_cof.ogg" prefix="regular_a"/>
+		<sound id="glawk_fire" path="glawk_pr.ogg" prefix="regular_b"/>
+		<sound id="wp_glawk_slide_release" path="wp_glawk_slide_release.ogg" prefix="first"/>
+		<sound id="wp_glawk_slide_release" path="wp_glawk_slide_release.ogg" prefix="third"/>
+		<sound id="wp_glawk_mag_slide_out" path="wp_glawk_mag_slide_out.ogg" prefix="first"/>
+		<sound id="wp_glawk_mag_slide_out" path="wp_glawk_mag_slide_out.ogg" prefix="third"/>
+		<sound id="wp_glawk_mag_slide_in"  path="wp_glawk_mag_slide_in.ogg" prefix="first"/>
+		<sound id="wp_glawk_mag_slide_in"  path="wp_glawk_mag_slide_in.ogg" prefix="third"/>
+		<sound id="wp_glawk_slide_back"  path="wp_glawk_slide_back.ogg" prefix="first"/>
+		<sound id="wp_glawk_slide_back"  path="wp_glawk_slide_back.ogg" prefix="third"/>
+		<sound id="wp_glawk_slide_release_wick"  path="wp_glawk_slide_release_wick.ogg" prefix="first"/>
+		<sound id="wp_glawk_slide_release_wick"  path="wp_glawk_slide_release_wick.ogg" prefix="third"/>
 		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_a"/>
 		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_b"/>
 		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_c"/>
@@ -1324,6 +1366,9 @@
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_a3_357sig"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_a4_45acp"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_a5_45gap"/>
+		
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_so_pr"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_so_cof"/>
 		
 	</AddFiles>
 	
