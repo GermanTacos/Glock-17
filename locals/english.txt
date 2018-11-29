@@ -82,7 +82,10 @@
 	"bm_wp_wpn_fps_pis_glawk_a3_357sig"      : ".357 SIG",
 	"bm_wp_wpn_fps_pis_glawk_a4_45acp"       : ".45 ACP",
 	"bm_wp_wpn_fps_pis_glawk_a5_45gap"       : ".45 GAP",
-
+	
+	"bm_wp_wpn_fps_pis_glawk_so_pr"       	 : "Project Reality sounds",
+	"bm_wp_wpn_fps_pis_glawk_so_cof"       	 : "Cry of Fear sounds",
+	
 	"bm_wp_wpn_fps_pis_glawk_ani_wick"       : "Center Axis Relock"
 
 }
