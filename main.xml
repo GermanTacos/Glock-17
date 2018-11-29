@@ -2,7 +2,7 @@
 
 	<Localization directory="locals" default="english.txt"/>
 	
-<!--<AssetUpdates id="22095" name="asset_updates" folder_name="CZ 75 B" version="3.01" provider="modworkshop"/>-->
+	<AssetUpdates id="24018" name="asset_updates" folder_name="Glock 17 Gen 3" version="1.0" provider="modworkshop"/>
 	
 	<GlobalValue id="glawk" color="Color(0.8, 0.2, 0.8)"/>
 
@@ -514,7 +514,7 @@
 				
 				<value_node value="wpn_fps_pis_glawk_gr_pachmayr"/>
 				
-				<value_node value="wpn_fps_pis_glawk_mr_ext"/>
+			<!--<value_node value="wpn_fps_pis_glawk_mr_ext"/>-->
 				
 				<value_node value="wpn_fps_pis_glawk_mw_carver_wh"/>
 				<value_node value="wpn_fps_pis_glawk_mw_carver_bl"/>
