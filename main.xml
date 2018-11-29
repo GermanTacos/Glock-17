@@ -2,7 +2,7 @@
 
 	<Localization directory="locals" default="english.txt"/>
 	
-	<AssetUpdates id="24018" name="asset_updates" folder_name="Glock 17 Gen 3" version="1.0" provider="modworkshop"/>
+	<AssetUpdates id="24018" name="asset_updates" folder_name="Glock 17 Gen 3" version="1.0_01" provider="modworkshop"/>
 	
 	<GlobalValue id="glawk" color="Color(0.8, 0.2, 0.8)"/>
 
@@ -441,6 +441,7 @@
 			<override>
 				<wpn_fps_upg_o_rmr parent="slide">
 					<adds/>
+					<wpn_fps_pis_glawk_slp_rmr unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 				</wpn_fps_upg_o_rmr>
 			</override>
 			
@@ -535,7 +536,7 @@
 				<value_node value="wpn_fps_pis_glawk_ani_wick"/>
 				
 				<value_node value="wpn_fps_pis_glawk_so_pr"/>
-				<value_node value="wpn_fps_pis_glawk_so_cof"/>
+			<!--<value_node value="wpn_fps_pis_glawk_so_cof"/>-->
 				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
