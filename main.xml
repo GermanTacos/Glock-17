@@ -417,7 +417,7 @@
 				<value_node value="5"/>
 			</AMMO_PICKUP>
 			<sounds fire="glawk_fire">
-				<reload wp_g17_clip_slide_out="wp_glawk_mag_slide_out" wp_g17_clip_slide_in="wp_glawk_mag_slide_in" wp_g17_lever_release="wp_glawk_slide_release"/>
+				<reload wp_usp_clip_out="wp_glawk_mag_slide_out" wp_usp_clip_slide_in="wp_glawk_mag_slide_in" wp_g17_lever_release="wp_glawk_slide_release" wp_packrat_mag_throw="wp_glawk_mag_slide_out" wp_packrat_mag_in="wp_glawk_mag_slide_in" wp_packrat_slide_back="wp_glawk_slide_back" wp_packrat_slide_release="wp_glawk_slide_release_wick" />
 			</sounds>
 			<animations reload_name_id="p226"/>
 		</weapon>
@@ -560,19 +560,23 @@
 		</stance>
 	</Weapon>
 	
-	<Sounds directory="assets">
-		<sound id="glawk_fire" path="sounds/glawk_fire.ogg" prefix="regular"/>
-		<sound id="glawk_fire" path="sounds/glawk_cof.ogg" prefix="regular_a"/>
-		<sound id="glawk_fire" path="sounds/glawk_pr.ogg" prefix="regular_b"/>
-		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_a"/>
-		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_b"/>
-		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_c"/>
+	<Sounds directory="assets\sounds">
+		<sound id="glawk_fire" path="glawk_fire.ogg" prefix="regular"/>
+		<sound id="glawk_fire" path="glawk_cof.ogg" prefix="regular_a"/>
+		<sound id="glawk_fire" path="glawk_pr.ogg" prefix="regular_b"/>
 		<sound id="wp_glawk_slide_release" path="wp_glawk_slide_release.ogg" prefix="first"/>
 		<sound id="wp_glawk_slide_release" path="wp_glawk_slide_release.ogg" prefix="third"/>
 		<sound id="wp_glawk_mag_slide_out" path="wp_glawk_mag_slide_out.ogg" prefix="first"/>
 		<sound id="wp_glawk_mag_slide_out" path="wp_glawk_mag_slide_out.ogg" prefix="third"/>
-		<sound id="wp_glawk_mag_slide_in" path="wp_glawk_mag_slide_in.ogg" prefix="first"/>
-		<sound id="wp_glawk_mag_slide_in" path="wp_glawk_mag_slide_in.ogg" prefix="third"/>
+		<sound id="wp_glawk_mag_slide_in"  path="wp_glawk_mag_slide_in.ogg" prefix="first"/>
+		<sound id="wp_glawk_mag_slide_in"  path="wp_glawk_mag_slide_in.ogg" prefix="third"/>
+		<sound id="wp_glawk_slide_back"  path="wp_glawk_slide_back.ogg" prefix="first"/>
+		<sound id="wp_glawk_slide_back"  path="wp_glawk_slide_back.ogg" prefix="third"/>
+		<sound id="wp_glawk_slide_release_wick"  path="wp_glawk_slide_release_wick.ogg" prefix="first"/>
+		<sound id="wp_glawk_slide_release_wick"  path="wp_glawk_slide_release_wick.ogg" prefix="third"/>
+		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_a"/>
+		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_b"/>
+		<redirect id="glawk_fire" to="p226r_fire" prefix="suppressed_c"/>
 	</Sounds>
 	
 	<AddFiles directory="assets">
