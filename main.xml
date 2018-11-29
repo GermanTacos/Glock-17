@@ -385,6 +385,13 @@
 		<weapon_hold_override 	bm_w_glawk="packrat"/>
 		<weapon_stance_override bm_w_glawk="wick_ads_glawk"/>
 		<stats/>
+		<override>
+			<wpn_fps_upg_o_rmr>
+				<stance_mod>
+					<wpn_fps_pis_glawk translation="0.5 0 -0.7"/>
+				</stance_mod>
+			</wpn_fps_upg_o_rmr>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
