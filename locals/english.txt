@@ -4,11 +4,18 @@
 	
 	"bm_w_glawk" : "Glock 17 Gen 3",
 
-	"bm_menu_iron_rear"   : "Rear Iron Sight",
-	"bm_menu_iron_front"  : "Front Iron Sight",
-	"bm_menu_mag_release" : "Magazine Release",
-	"bm_menu_akit"        : "Ammunition",
-	"bm_menu_anim"        : "Animations",
+	"bm_menu_iron_rear"   		: "Rear Iron Sight",
+	"bm_menu_iron_rear_plural"  : "Rear Iron Sights",
+	"bm_menu_iron_front"  		: "Front Iron Sight",
+	"bm_menu_iron_front_plural" : "Front Iron Sights",
+	"bm_menu_mag_release" 		: "Magazine Release",
+	"bm_menu_mag_release_plural": "Magazine Releases",
+	"bm_menu_akit"        		: "Caliber",
+	"bm_menu_akit_plural" 		: "Calibers",
+	"bm_menu_anim"        		: "Animation",
+	"bm_menu_anim_plural"		: "Animations",
+	"bm_menu_sound"       		: "Sound",
+	"bm_menu_sound_plural"		: "Sounds",
 	
 	"bm_wp_wpn_fps_pis_glawk_fr_wood"        : "Wood Paneled Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_stp"         : "Stippled Frame",
