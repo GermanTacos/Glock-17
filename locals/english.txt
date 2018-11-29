@@ -10,6 +10,8 @@
 	"bm_menu_iron_front_plural" : "Front Iron Sights",
 	"bm_menu_mag_release" 		: "Magazine Release",
 	"bm_menu_mag_release_plural": "Magazine Releases",
+	"bm_menu_magwell"           : "Magwell",
+	"bm_menu_magwell_plural"    : "Magwells",
 	"bm_menu_akit"        		: "Caliber",
 	"bm_menu_akit_plural" 		: "Calibers",
 	"bm_menu_anim"        		: "Animation",
