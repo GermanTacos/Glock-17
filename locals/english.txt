@@ -8,6 +8,7 @@
 	"bm_menu_iron_front"  : "Front Iron Sight",
 	"bm_menu_mag_release" : "Magazine Release",
 	"bm_menu_akit"        : "Ammunition",
+	"bm_menu_anim"        : "Animations",
 	
 	"bm_wp_wpn_fps_pis_glawk_fr_wood"        : "Wood Paneled Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_stp"         : "Stippled Frame",
@@ -73,6 +74,6 @@
 	"bm_wp_wpn_fps_pis_glawk_a4_45acp"       : ".45 ACP",
 	"bm_wp_wpn_fps_pis_glawk_a5_45gap"       : ".45 GAP",
 	
-	"bm_wp_wpn_fps_pis_glawk_ani_wick"       : "Baba Yaga"
+	"bm_wp_wpn_fps_pis_glawk_ani_wick"       : "Center Axis Relock"
 	
 }
