@@ -8,6 +8,12 @@ if ( self.glawk ) then
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("glawk", {
+		name = "a_rds_sld", 
+        base_a_obj = "a_rds", 
+        position = Vector3( 0, -2.1, -0.7 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("glawk", {
 		name = "a_ns", 
         base_a_obj = "a_ns", 
         position = Vector3( 0, -0.57, -0.65 ), 

@@ -120,6 +120,9 @@
 		<adds>
 			<value_node value="wpn_fps_pis_glawk_slp_rmr"/>
 		</adds>
+		<override>
+			<wpn_fps_upg_o_rmr a_obj="a_rds_sld"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
@@ -139,6 +142,9 @@
 		<adds>
 			<value_node value="wpn_fps_pis_glawk_slp_rmr"/>
 		</adds>
+		<override>
+			<wpn_fps_upg_o_rmr a_obj="a_rds_sld"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
