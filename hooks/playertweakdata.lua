@@ -2,7 +2,7 @@ Hooks:PostHook( PlayerTweakData, "init", "Glock17ModStanceTweakData", function(s
 
 	self.stances.wick_ads_glawk = deep_clone(self.stances.p226)
 	self.stances.wick_ads_glawk.steelsight.shoulders.translation = Vector3(-9.6, -2.066, -1.9)
-    self.stances.wick_ads_glawk.steelsight.shoulders.rotation = Rotation( 0, 1.1, -40.5 )
+	self.stances.wick_ads_glawk.steelsight.shoulders.rotation = Rotation(-0.2, 1.2, -40)
 
 	
 --	self.stances.glawk_ads = deep_clone(self.stances.p226)
