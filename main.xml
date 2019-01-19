@@ -419,7 +419,7 @@
 		<override>
 			<wpn_fps_upg_o_rmr>
 				<stance_mod>
-					<wpn_fps_pis_glawk translation="0.3 0 -0.7"/>
+					<wpn_fps_pis_glawk translation="0.5 0 -0.7"/>
 				</stance_mod>
 			</wpn_fps_upg_o_rmr>
 		</override>

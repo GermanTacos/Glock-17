@@ -22,6 +22,8 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "Glock17ModInit", function(self)
 		"wpn_fps_pis_glawk_md_4port"
 	}
 	
+	self.parts.wpn_fps_pis_glawk_ani_wick.override.wpn_fps_upg_o_rmr.stance_mod.wpn_fps_pis_glawk.rotation = Rotation(0, -0.32, 0)
+	
 	for id, part_id in pairs(g17_exts) do
 		self.parts.wpn_fps_pis_glawk_ba_diamond.override[part_id] = {a_obj = "a_ns_ext"}
 		self.parts.wpn_fps_pis_glawk_ba_salient.override[part_id] = {a_obj = "a_ns_ext"}
