@@ -23,6 +23,7 @@
 	"bm_wp_wpn_fps_pis_glawk_fr_stp"         : "Stippled Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_gen2"        : "Gen 2 Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_gen1"        : "Gen 1 Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_short"       : "Custom Compact Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_lnp"         : "LLENN Pink Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_tfb"         : "Tiffany Blue Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_stw"         : "Stormtrooper White Frame",
