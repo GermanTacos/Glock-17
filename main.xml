@@ -10,6 +10,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 	</WeaponMod>
 	
@@ -49,6 +50,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -58,6 +60,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -67,6 +70,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -76,6 +80,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -85,9 +90,10 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_gr_pachmayr"/>
 		</forbids>
-		 <override>
-			<wpn_fps_pis_glawk_m_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_10"/>
+		<override>
+		<!--<wpn_fps_pis_glawk_m_std unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_10"/>-->
 	    </override>
 		<pcs/>
 	</WeaponMod>
@@ -96,6 +102,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -104,6 +111,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -112,6 +120,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -120,6 +129,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -128,6 +138,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -136,6 +147,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -144,6 +156,7 @@
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
+			<value_node value="wpn_fps_pis_glawk_m_10"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -344,6 +357,11 @@
 	
 	<WeaponMod id="wpn_fps_pis_glawk_m_21"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_21" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo_new="4" recoil="-1" concealment="-1"/>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_glawk_m_10"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_10" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo_new="-7" concealment="2"/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -555,6 +573,7 @@
 				<value_node value="wpn_fps_pis_glawk_ro_zev"/>
 				<value_node value="wpn_fps_pis_glawk_fo_zev"/>
 				
+				<value_node value="wpn_fps_pis_glawk_m_10"/>
 				<value_node value="wpn_fps_pis_glawk_m_21"/>
 				<value_node value="wpn_fps_pis_glawk_m_23"/>
 				<value_node value="wpn_fps_pis_glawk_m_33"/>

@@ -75,6 +75,7 @@
 	"bm_wp_wpn_fps_pis_glawk_mw_carver_wh"   : "Carver Race Magwell (White)",
 	"bm_wp_wpn_fps_pis_glawk_mw_carver_bl"   : "Carver Race Magwell (Black)",
 
+	"bm_wp_wpn_fps_pis_glawk_m_10"           : "10 Round Magazine",
 	"bm_wp_wpn_fps_pis_glawk_m_21"           : "TTI +4 Base Pad Kit",
 	"bm_wp_wpn_fps_pis_glawk_m_23"           : "TTI +6 Base Pad Kit",
 	"bm_wp_wpn_fps_pis_glawk_m_33"           : "33 Round Magazine",
