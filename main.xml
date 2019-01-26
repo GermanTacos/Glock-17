@@ -1,4 +1,4 @@
-<table name="Glock 17" image="guis/glawk" color="Color(0.8, 0.2, 0.8)">
+<table name="Glock 17 Gen 3" image="guis/glawk" color="Color(0.8, 0.2, 0.8)">
 
 	<Localization directory="locals" default="english.txt"/>
 	
