@@ -162,11 +162,14 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_fr_pf940"  based_on="wpn_fps_pis_p226_body_standard"  type="lower_reciever" unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_pf940" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats recoil="1" concealment="-2"/>
+		<stats recoil="2" concealment="-2"/>
 		<forbids>
 			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
 			<value_node value="wpn_fps_pis_p226_o_standard"/>
 			<value_node value="wpn_fps_pis_glawk_m_10"/>
+			<value_node value="wpn_fps_pis_glawk_mw_carver_bl"/>
+			<value_node value="wpn_fps_pis_glawk_mw_carver_wh"/>
+			<value_node value="wpn_fps_pis_glawk_gr_pachmayr"/>
 		</forbids>
 		<pcs/>
 	</WeaponMod>
@@ -356,22 +359,26 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_m_33"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_33" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="16" recoil="-3" concealment="-4"/>
+		<stats recoil="-3" concealment="-4"/>
+		<override_weapon CLIP_AMMO_MAX="33"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_m_23"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_23" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="6" recoil="-2" concealment="-2"/>
+		<stats recoil="-2" concealment="-2"/>
+		<override_weapon CLIP_AMMO_MAX="23"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_m_21"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_21" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="4" recoil="-1" concealment="-1"/>
+		<stats recoil="-1" concealment="-1"/>
+		<override_weapon CLIP_AMMO_MAX="21"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_m_10"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_m_10" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="-7" concealment="2"/>
+		<stats concealment="2"/>
+		<override_weapon CLIP_AMMO_MAX="10"/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -390,10 +397,12 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_mw_carver_wh"  based_on="wpn_fps_pis_p226_body_standard"    type="magwell"    unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_mw_carver_wh"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="1" concealment="-1"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_pis_glawk_mw_carver_bl"  based_on="wpn_fps_pis_p226_body_standard"    type="magwell"    unit="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_mw_carver_bl"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="1" concealment="-1"/>
 		<pcs/>
 	</WeaponMod>
 	
