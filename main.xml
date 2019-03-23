@@ -171,6 +171,10 @@
 			<value_node value="wpn_fps_pis_glawk_mw_carver_wh"/>
 			<value_node value="wpn_fps_pis_glawk_gr_pachmayr"/>
 		</forbids>
+		<override>
+			<wpn_fps_pis_glawk_mr_std a_obj="a_mr_pf940"/>
+			<wpn_fps_pis_glawk_mr_ext a_obj="a_mr_pf940"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
