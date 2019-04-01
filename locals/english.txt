@@ -23,6 +23,7 @@
 	"bm_wp_wpn_fps_pis_glawk_fr_stp"         : "Stippled Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_gen2"        : "Gen 2 Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_gen1"        : "Gen 1 Frame",
+	"bm_wp_wpn_fps_pis_glawk_fr_gen4"        : "Gen 4 Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_short"       : "Custom Compact Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_lnp"         : "LLENN Pink Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_tfb"         : "Tiffany Blue Frame",
@@ -45,6 +46,7 @@
 	"bm_wp_wpn_fps_pis_glawk_sl_sst"         : "Stainless Steel Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_cyt"         : "Coyote Tan Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_cap"         : "Candy Apple Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_p80"         : "Glock P80 Slide",
 
 	"bm_wp_wpn_fps_pis_glawk_ba_comp"        : "Compensated Barrel",
 	"bm_wp_wpn_fps_pis_glawk_ba_diamond"     : "Double Diamond Barrel",

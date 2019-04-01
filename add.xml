@@ -135,6 +135,16 @@
 	<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen1"/>
 	<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen1_thq"/>
 	
+	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_frame_gen4_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_frame_gen4_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen4"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen4"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen4"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen4"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen4"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_fr_gen4_thq"/>
+	
 	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_hex_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_hex_nm"/>
 	
@@ -365,6 +375,16 @@
 	<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
 	<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage"/>
 	<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_advantage_thq"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_p80_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_slide_p80_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_p80"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_p80"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_p80"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_p80"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_p80"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_glawk_pts/wpn_fps_pis_glawk_sl_p80_thq"/>
 	
 	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_barrel_comp_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_pis_glawk_pts/glawk_barrel_comp_nm"/>
