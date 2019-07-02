@@ -47,6 +47,8 @@
 	"bm_wp_wpn_fps_pis_glawk_sl_cyt"         : "Coyote Tan Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_cap"         : "Candy Apple Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_p80"         : "Glock P80 Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_17l"         : "Glock 17L Slide",
+	"bm_wp_wpn_fps_pis_glawk_sl_34"          : "Glock 34 Slide",
 
 	"bm_wp_wpn_fps_pis_glawk_ba_comp"        : "Compensated Barrel",
 	"bm_wp_wpn_fps_pis_glawk_ba_diamond"     : "Double Diamond Barrel",
