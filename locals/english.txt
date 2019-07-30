@@ -34,6 +34,7 @@
 	"bm_wp_wpn_fps_pis_glawk_fr_fde"         : "Flat Dark Earth Frame",
 	"bm_wp_wpn_fps_pis_glawk_fr_pf940"       : "Polymer80 PF940 Frame",
 
+	"bm_wp_wpn_fps_pis_glawk_sl_std2"        : "TEST SLIDE PLEASE IGNORE",
 	"bm_wp_wpn_fps_pis_glawk_sl_hex"         : "ZEV Tech Hex Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_moto"        : "GSPC Moto Slide",
 	"bm_wp_wpn_fps_pis_glawk_sl_pat5"        : "AlphaWolf Pattern 5 Slide",

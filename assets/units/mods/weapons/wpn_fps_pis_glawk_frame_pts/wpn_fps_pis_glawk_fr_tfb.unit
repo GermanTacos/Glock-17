@@ -1,0 +1,6 @@
+<unit type="wpn" slot="1" >
+    <object file="units/mods/weapons/wpn_fps_pis_glawk_frame_pts/wpn_fps_pis_glawk_fr_tfb" />
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData" />
+    </extensions>
+</unit>

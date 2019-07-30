@@ -33,7 +33,7 @@ if ( self.glawk ) then
 	})
 	self:SetupAttachmentPoint("glawk", {
 		name = "a_mr_pf940", 
-        base_a_obj = "a_mr_pf940", 
+        base_a_obj = "a_body", 
         position = Vector3( 0, 0.15, 0.15 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
