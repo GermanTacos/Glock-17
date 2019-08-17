@@ -719,6 +719,7 @@
 	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/glawk"/>
 	
 	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_ani_wick"/>
+	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_ani_p30l"/>
 	
 	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_ba_wolf"/>
 	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_glawk_ba_salient"/>

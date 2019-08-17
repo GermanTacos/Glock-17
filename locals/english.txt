@@ -97,6 +97,7 @@
 	"bm_wp_wpn_fps_pis_glawk_so_pr"       	 : "Project Reality sounds",
 	"bm_wp_wpn_fps_pis_glawk_so_cof"       	 : "Cry of Fear sounds",
 	
-	"bm_wp_wpn_fps_pis_glawk_ani_wick"       : "Center Axis Relock"
+	"bm_wp_wpn_fps_pis_glawk_ani_wick"       : "Center Axis Relock",
+	"bm_wp_wpn_fps_pis_glawk_ani_p30l"       : "P30L Anims"
 
 }

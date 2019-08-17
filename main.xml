@@ -492,6 +492,23 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<WeaponMod id="wpn_fps_pis_glawk_ani_p30l" based_on="wpn_fps_pis_packrat_m_standard" type="anim" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<weapon_reload_override bm_w_glawk="packrat"/>
+		<weapon_hold_override 	bm_w_glawk="packrat"/>
+		<stats/>
+		<stance_mod>
+			<wpn_fps_pis_glawk translation="0 0 0.1" rotation="0 -0 -0.000872665 -1"/>
+		</stance_mod>
+		<override>
+		<!--<wpn_fps_upg_o_rmr>
+				<stance_mod>
+					<wpn_fps_pis_glawk translation="0.5 0 -0.7"/>
+				</stance_mod>
+			</wpn_fps_upg_o_rmr> -->
+		</override>
+		<pcs/>
+	</WeaponMod>
+	
 	<WeaponMod id="wpn_fps_pis_glawk_so_pr" based_on="wpn_fps_upg_a_custom_free" type="sound" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<sound_switch suppressed="regular_b"/>
 		<stats damage="0"/>
@@ -637,6 +654,7 @@
 				<value_node value="wpn_fps_pis_glawk_a5_45gap"/>
 				
 				<value_node value="wpn_fps_pis_glawk_ani_wick"/>
+				<value_node value="wpn_fps_pis_glawk_ani_p30l"/>
 				
 				<value_node value="wpn_fps_pis_glawk_so_pr"/>
 			<!--<value_node value="wpn_fps_pis_glawk_so_cof"/>-->
