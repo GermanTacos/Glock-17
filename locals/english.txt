@@ -66,6 +66,8 @@
 	"bm_wp_wpn_fps_pis_glawk_md_g4"          : "Strike Industries G4 Compensator",
 	"bm_wp_wpn_fps_pis_glawk_md_comp9"       : "Lone Wolf Compensator 9",
 	"bm_wp_wpn_fps_pis_glawk_md_4port"       : "Carver Custom 4 Port Compensator",
+	
+	"bm_wp_wpn_fps_pis_glawk_sup_fischer"    : "Fischer Development Tactical Suppressor",
 
 	"bm_wp_wpn_fps_pis_glawk_fo_tru"         : "TruGlo TFO Front Sight",
 	"bm_wp_wpn_fps_pis_glawk_ro_tru"         : "TruGlo TFO Rear Sight",
@@ -86,6 +88,8 @@
 	"bm_wp_wpn_fps_pis_glawk_m_23"           : "TTI +6 Base Pad Kit",
 	"bm_wp_wpn_fps_pis_glawk_m_33"           : "33 Round Magazine",
 	"bm_wp_wpn_fps_pis_glawk_m_tti0"         : "TTI +0 Base Pad Weight Kit",
+	"bm_wp_wpn_fps_pis_glawk_m_pmag"         : "Magpul PMAG GL9 21",
+	"bm_wp_wpn_fps_pis_glawk_m_sgmt"         : "SGM Tactical 50 Round Drum",
 
 	"bm_wp_wpn_fps_pis_glawk_a1_22lr"        : ".22 LR",
 	"bm_wp_wpn_fps_pis_glawk_a1_40sw"        : ".40 S&W",
@@ -93,6 +97,16 @@
 	"bm_wp_wpn_fps_pis_glawk_a3_357sig"      : ".357 SIG",
 	"bm_wp_wpn_fps_pis_glawk_a4_45acp"       : ".45 ACP",
 	"bm_wp_wpn_fps_pis_glawk_a5_45gap"       : ".45 GAP",
+	
+	"bm_w_paint_lnp"                         : "LLENN Pink",
+	"bm_w_paint_cyt"                         : "Coyote Tan",
+	"bm_w_paint_fde"                         : "Flat Dark Earth",
+	"bm_w_paint_odg"                         : "OD Green",
+	"bm_w_paint_sng"                         : "Sniper Grey",
+	"bm_w_paint_stw"                         : "Stormtrooper White",
+	"bm_w_paint_tfb"                         : "Tiffany Blue",
+	"bm_w_paint_cap"                         : "Candy Apple",
+	"bm_w_paint_sst"                         : "Stainless Steel",
 	
 	"bm_wp_wpn_fps_pis_glawk_so_pr"       	 : "Project Reality sounds",
 	"bm_wp_wpn_fps_pis_glawk_so_cof"       	 : "Cry of Fear sounds",

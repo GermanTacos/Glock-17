@@ -1,0 +1,169 @@
+<table>
+
+	<Weapon unlock_level="0">
+		<weapon id="glawk" based_on="p226" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="5" tactical_reload="1" texture_bundle_folder="mods" global_value="glawk">
+			<stats damage="65" spread="13" spread_moving="13" recoil="15" concealment="25"/>
+			<timers reload_not_empty="1.5" reload_empty="2.2"/>
+			<fire_mode_data fire_rate="0.1"/>
+			<AMMO_PICKUP>
+				<value_node value="3"/>
+				<value_node value="5"/>
+			</AMMO_PICKUP>
+			<sounds fire="glawk_fire">
+				<reload wp_usp_clip_out="wp_glawk_mag_slide_out" wp_usp_clip_slide_in="wp_glawk_mag_slide_in" wp_g17_lever_release="wp_glawk_slide_release" wp_packrat_mag_throw="wp_glawk_mag_slide_out" wp_packrat_mag_in="wp_glawk_mag_slide_in" wp_packrat_slide_back="wp_glawk_slide_back" wp_packrat_slide_release="wp_glawk_slide_release_wick"/>
+			</sounds>
+			<animations reload_name_id="p226"/>
+		</weapon>
+
+		<factory id="wpn_fps_pis_glawk" unit="units/mods/weapons/wpn_fps_pis_glawk/wpn_fps_pis_glawk">
+			
+			<animations reload="reload" reload_not_empty="reload_not_empty" fire="recoil" fire_steelsight="recoil" magazine_empty="last_recoil"/>
+			
+			<optional_types>
+				<value_node value="barrel"/>
+				<value_node value="barrel_ext"/>
+				<value_node value="slide"/>
+			</optional_types>
+			
+			<override>
+				<wpn_fps_upg_o_rmr parent="slide">
+					<adds/>
+					<wpn_fps_pis_glawk_slp_rmr unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+				</wpn_fps_upg_o_rmr>
+			</override>
+			
+			<default_blueprint>
+			
+				<value_node value="wpn_fps_pis_glawk_fr_std"/>
+				<value_node value="wpn_fps_pis_glawk_tr_std"/>
+				<value_node value="wpn_fps_pis_glawk_mr_std"/>
+				<value_node value="wpn_fps_pis_glawk_sc_std"/>
+				<value_node value="wpn_fps_pis_glawk_ba_std"/>
+				<value_node value="wpn_fps_pis_glawk_sl_std"/>
+				<value_node value="wpn_fps_pis_glawk_ro_std"/>
+				<value_node value="wpn_fps_pis_glawk_fo_std"/>
+				<value_node value="wpn_fps_pis_glawk_m_std"/>
+				
+			</default_blueprint>
+			
+			<uses_parts>
+			
+				<value_node value="wpn_fps_pis_glawk_fr_std"/>
+				<value_node value="wpn_fps_pis_glawk_tr_std"/>
+				<value_node value="wpn_fps_pis_glawk_mr_std"/>
+				<value_node value="wpn_fps_pis_glawk_sc_std"/>
+				<value_node value="wpn_fps_pis_glawk_ba_std"/>
+				<value_node value="wpn_fps_pis_glawk_sl_std"/>
+				<value_node value="wpn_fps_pis_glawk_ro_std"/>
+				<value_node value="wpn_fps_pis_glawk_fo_std"/>
+				<value_node value="wpn_fps_pis_glawk_m_std"/>
+				
+				<value_node value="wpn_fps_pis_glawk_fr_wood"/>
+				<value_node value="wpn_fps_pis_glawk_fr_stp"/>
+				<value_node value="wpn_fps_pis_glawk_fr_gen2"/>
+				<value_node value="wpn_fps_pis_glawk_fr_gen1"/>
+				<value_node value="wpn_fps_pis_glawk_fr_gen4"/>
+				<value_node value="wpn_fps_pis_glawk_fr_short"/>
+				<value_node value="wpn_fps_pis_glawk_fr_lnp"/>
+				<value_node value="wpn_fps_pis_glawk_fr_tfb"/>
+				<value_node value="wpn_fps_pis_glawk_fr_stw"/>
+				<value_node value="wpn_fps_pis_glawk_fr_sng"/>
+				<value_node value="wpn_fps_pis_glawk_fr_cyt"/>
+				<value_node value="wpn_fps_pis_glawk_fr_odg"/>
+				<value_node value="wpn_fps_pis_glawk_fr_fde"/>
+				<value_node value="wpn_fps_pis_glawk_fr_pf940"/>
+				
+				<value_node value="wpn_fps_pis_glawk_sl_hex"/>
+				<value_node value="wpn_fps_pis_glawk_sl_moto"/>
+				<value_node value="wpn_fps_pis_glawk_sl_pat5"/>
+				<value_node value="wpn_fps_pis_glawk_sl_ps9"/>
+				<value_node value="wpn_fps_pis_glawk_sl_spartan"/>
+				<value_node value="wpn_fps_pis_glawk_sl_viper"/>
+				<value_node value="wpn_fps_pis_glawk_sl_wave"/>
+			<!--<value_node value="wpn_fps_pis_glawk_sl_auto"/>-->
+				<value_node value="wpn_fps_pis_glawk_sl_34"/>
+				<value_node value="wpn_fps_pis_glawk_sl_17l"/>
+				<value_node value="wpn_fps_pis_glawk_sl_p80"/>
+				
+				<value_node value="wpn_fps_pis_glawk_ba_comp"/>
+				<value_node value="wpn_fps_pis_glawk_ba_diamond"/>
+				<value_node value="wpn_fps_pis_glawk_ba_salient"/>
+				<value_node value="wpn_fps_pis_glawk_ba_wolf"/>
+				
+				<value_node value="wpn_fps_pis_glawk_tp_diamond"/>
+				<value_node value="wpn_fps_pis_glawk_tp_salient"/>
+				<value_node value="wpn_fps_pis_glawk_tp_wolf"/>
+				
+				<value_node value="wpn_fps_pis_glawk_md_diamond"/>
+				<value_node value="wpn_fps_pis_glawk_md_bull"/>
+				<value_node value="wpn_fps_pis_glawk_md_decelerator"/>
+				<value_node value="wpn_fps_pis_glawk_md_g4"/>
+				<value_node value="wpn_fps_pis_glawk_md_comp9"/>
+				<value_node value="wpn_fps_pis_glawk_md_4port"/>
+				
+				<value_node value="wpn_fps_pis_glawk_sup_fischer"/>
+				
+				<value_node value="wpn_fps_pis_glawk_ro_tru"/>
+				<value_node value="wpn_fps_pis_glawk_fo_tru"/>
+				<value_node value="wpn_fps_pis_glawk_ro_snake"/>
+				<value_node value="wpn_fps_pis_glawk_fo_snake"/>
+				<value_node value="wpn_fps_pis_glawk_ro_zev"/>
+				<value_node value="wpn_fps_pis_glawk_fo_zev"/>
+				
+				<value_node value="wpn_fps_pis_glawk_m_10"/>
+				<value_node value="wpn_fps_pis_glawk_m_21"/>
+				<value_node value="wpn_fps_pis_glawk_m_23"/>
+				<value_node value="wpn_fps_pis_glawk_m_33"/>
+				<value_node value="wpn_fps_pis_glawk_m_tti0"/>
+				<value_node value="wpn_fps_pis_glawk_m_pmag"/>
+				<value_node value="wpn_fps_pis_glawk_m_sgmt"/>
+				
+				<value_node value="wpn_fps_pis_glawk_gr_pachmayr"/>
+				
+			<!--<value_node value="wpn_fps_pis_glawk_mr_ext"/>-->
+				
+				<value_node value="wpn_fps_pis_glawk_mw_carver_wh"/>
+				<value_node value="wpn_fps_pis_glawk_mw_carver_bl"/>
+				
+				<value_node value="wpn_fps_pis_glawk_a1_22lr"/>
+				<value_node value="wpn_fps_pis_glawk_a1_40sw"/>
+				<value_node value="wpn_fps_pis_glawk_a2_10mm"/>
+				<value_node value="wpn_fps_pis_glawk_a3_357sig"/>
+				<value_node value="wpn_fps_pis_glawk_a4_45acp"/>
+				<value_node value="wpn_fps_pis_glawk_a5_45gap"/>
+				
+				<value_node value="wpn_fps_pis_glawk_ani_wick"/>
+				
+				<value_node value="wpn_fps_pis_glawk_so_pr"/>
+			<!--<value_node value="wpn_fps_pis_glawk_so_cof"/>-->
+				
+				<value_node value="wpn_fps_upg_ns_pis_large"/>
+				<value_node value="wpn_fps_upg_ns_pis_medium"/>
+				<value_node value="wpn_fps_upg_ns_pis_small"/>
+				<value_node value="wpn_fps_upg_ns_pis_large_kac"/>
+				<value_node value="wpn_fps_upg_ns_pis_medium_gem"/>
+				<value_node value="wpn_fps_upg_ns_pis_medium_slim"/>
+				<value_node value="wpn_fps_upg_ns_pis_jungle"/>
+				<value_node value="wpn_fps_upg_ns_pis_meatgrinder"/>
+				<value_node value="wpn_fps_upg_ns_pis_ipsccomp"/>
+				<value_node value="wpn_fps_upg_pis_ns_flash"/>
+				
+				<value_node value="wpn_fps_upg_fl_pis_laser"/>
+				<value_node value="wpn_fps_upg_fl_pis_tlr1"/>
+				<value_node value="wpn_fps_upg_fl_pis_crimson"/>
+				<value_node value="wpn_fps_upg_fl_pis_x400v"/>
+				<value_node value="wpn_fps_upg_fl_pis_m3x"/>
+				
+				<value_node value="wpn_fps_upg_o_rmr"/>
+
+			</uses_parts>
+			
+		</factory>
+		<stance>
+			<steelsight>
+				<shoulders translation="-8.572 -2.166 4.78"/>
+			</steelsight>
+		</stance>
+	</Weapon>
+
+</table>
